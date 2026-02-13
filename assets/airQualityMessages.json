@@ -1,0 +1,10 @@
+{
+    "usEpaIndex" : {
+        "1": "Air quality is good",
+        "2": "Air quality is okay",
+        "3": "Air quality could cause harm to sensitive groups",
+        "4": "Air quality is bad",
+        "5": "Air quality is very bad",
+        "6": "Air quality is dangerously bad"
+    }
+}

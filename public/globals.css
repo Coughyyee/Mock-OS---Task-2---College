@@ -1,0 +1,50 @@
+:root {
+    --primary-bg-color: #F87666;
+    --secondary-bg-color: #BD897E;
+    --tertiary-bg-color: #95A78D;
+    --white: #FFFFFF;
+    --text: #1C1C1C;
+}
+
+.primary-bg {
+    background-color: var(--primary-bg-color);
+}
+
+.my-toast {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 9999;
+
+  color: white;
+  border-radius: 8px;
+
+  opacity: 0;
+  pointer-events: none;
+}
+
+.my-toast.show {
+  animation: toast 3s ease forwards;
+}
+
+@keyframes toast {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  10% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}

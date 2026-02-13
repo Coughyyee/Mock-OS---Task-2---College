@@ -1,0 +1,11 @@
+{
+    "empty": "Nothing to worry about today!",
+    
+    "hot": "It's hot today, make sure to wear sun screen.",
+    "cold": "It's cold today, make sure to put on a warm jumper.",
+    "freezing": "It's extremely cold today, watch out for icy roads and make sure to put on a jacket.",
+    
+    "windy": "It's windy today, make sure to wear a hat and coat.",
+
+    "highUv": "High uv today, make sure to put on that sunscreen and wear a hat."
+}
